@@ -1,0 +1,43 @@
+.koperta #obszar {
+	fill: yellow;
+	stroke:blue;
+	stroke-width: 2px;
+}
+.koperta .zagiecie1 {
+	visibility: visible;
+	fill: blue;
+	stroke: gray;
+	stroke-width: 2px;
+}
+.koperta .zagiecie2 {
+	visibility: hidden;
+	fill: red;
+	stroke: blue;
+	stroke-width: 2px;
+}
+.koperta .list {
+	visibility: hidden;
+	fill: yellow;
+	stroke: gray;
+	stroke-width: 2px;
+}
+.koperta .tekst {
+	visibility: hidden;
+}
+.koperta:hover .zagiecie1 {
+	visibility: hidden;
+}
+.koperta:hover .zagiecie2 {
+	visibility: visible;
+}
+.koperta:hover .list {
+	visibility: visible;
+	fill: white;
+	stroke: blue;
+}
+.koperta:hover .tekst {
+	visibility: visible;
+	fill: red;
+	font-size: 17;
+	font-family:times;
+}
